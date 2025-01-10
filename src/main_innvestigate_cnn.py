@@ -641,7 +641,7 @@ def plot_lrp_timeseries(
 
 if __name__ == "__main__":
     # import paths
-    dataset = "charite"  #"duo_gait"  # "charite"
+    dataset = "charite"  # "duo_gait"  # "charite"
     with open("path.json", "r") as f:
         paths = json.load(f)
     original_data_path = paths[f"data_{dataset}_original"]
