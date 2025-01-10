@@ -1,0 +1,12 @@
+program: src/main_classification.py
+method: random
+metric:
+  name: val_auc
+  goal: maximize
+parameters:
+  learning_rate:
+    values: [0.1]
+  num_filters:
+    values: [32]
+  num_layers:
+    values: [1, 2, 3]
